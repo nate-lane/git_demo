@@ -1,2 +1,2 @@
-all: main.cpp
-	g++ main.cpp -o main
+all: main.cpp thing.cpp
+	g++ main.cpp thing.cpp -o main
